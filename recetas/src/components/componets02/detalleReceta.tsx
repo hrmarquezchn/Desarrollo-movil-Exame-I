@@ -9,8 +9,8 @@ const RecipeDetailsScreen = ({ route }) => {
 
   return (
     <View>
-      <Text>{recipe.name}</Text>
-      <Text>{recipe.ingredients}</Text>
+      <Text>{receta.name}</Text>
+      <Text>{receta.ingredients}</Text>
     </View>
   );
 };
