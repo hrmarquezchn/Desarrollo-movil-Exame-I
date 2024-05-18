@@ -12,7 +12,7 @@ const ListaRecetaScreen: React.FC = () => {
 
   const renderItem = ({ item }) => (
     <TouchableOpacity onPress={() => navigation.navigate('detalleReceta', { recetas: item })}>
-      <Text style={styles.recipeItem}>{item.name}</Text>
+      <Text style={styles.recetaItem}>{item.name}</Text>
     </TouchableOpacity>
   );
 
@@ -39,7 +39,7 @@ const App = () => {
             headerTitleStyle: styles.headerTitleStyle,
           }}
         />
-        <Stack.Screen name="RdetalleReceta" component={detalleRecetas} />
+        <Stack.Screen name="detalleReceta" component={detalleRecetas} />
       </Stack.Navigator>
     </NavigationContainer>
   );
