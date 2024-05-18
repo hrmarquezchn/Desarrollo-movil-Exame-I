@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Image } from 'react-native';
 import styles from './styles';
 
-const logoUri = require('../navegar/assets/LogoCeutec.png');
+const logoUri = require('../componets02/assets/images/icono-etiqueta-recetas-calabacin-cru');
 
 interface Receta {
   name: string;
@@ -41,7 +41,7 @@ const agregarRecetas: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Agregar Receta</Text>
-
+      <Image source={logoUri} style={styles.logo} />
       <TextInput
         style={styles.input}
         placeholder="Nombre de la receta"
