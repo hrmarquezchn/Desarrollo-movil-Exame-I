@@ -3,9 +3,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { agregarRecetas } from './src/components/agregarRecetas';
-import { detalleReceta } from './src/components/detalleReceta';
-import { listaRecetas } from './src/components/listaReceta';
+import { agregarRecetas } from './src/components/componets02/agregarRecetas';
+import { detalleReceta } from './src/components/componets02/detalleReceta';
+import { listaRecetas } from './src/components/componets02/listaRecetas';
 
 const Stack = createStackNavigator();
 
