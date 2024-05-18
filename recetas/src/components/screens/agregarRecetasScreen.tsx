@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
-import agregarRecetas from '../componets02/agregarRecetas.component';
+import agregarRecetas from '../componets02/agregarRecetas';
 
 const agregarRecetasScreen: React.FC = () => {
   const navigation = useNavigation();

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { usedetalleRecetaContext } from '../componets02/detalleReceta';
+import { usedetalleReceta } from '../componets02/detalleReceta';
 import * as ImagePicker from 'expo-image-picker';
 
 const detalleRecetas: React.FC<{ recipe: any }> = ({ recipe }) => {
