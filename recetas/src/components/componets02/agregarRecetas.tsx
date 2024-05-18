@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, Button, Image } from 'react-native';
 import styles from './styles';
 
+const logoUri = require('../navegar/assets/LogoCeutec.png');
+
 interface Receta {
   name: string;
   ingredients: string[];
